@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐网站</title>
+    <link rel="icon" href="image/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font_header.css">
+    <link rel="stylesheet" href="./css/font_leftBox.css">
+    <link rel="stylesheet" href="css/font_footer.css">
+    <link rel="stylesheet" href="../古风单曲.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+                <span>音乐网站</span>
+            </div>
+
+            <div class="other">
+               <div class="userInfo">
+                    <img src="image/ningzi.jpg" alt="a">
+                    <span>网页制作小组</span>
+               </div>
+                <ul>
+                    <li class="vertical_bar"></li>
+                    <li><i class="iconfont icon-guanbi"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 渐变线条 -->
+        <div class="line"></div>
+
+        <!-- 中间 -->
+        <div class="main">
+            <div class="left-box">
+                <ul>
+                    <a href="甜美女声/甜美女声.html"> <li><span>歌单：甜美女声</span></li></a>
+                    <a href="古风歌单/古风单曲.html"><li><span>歌单：古风音乐</span></li></a>
+                    <a href="动漫音乐/动漫音乐.html"><li><span>歌单：动漫音乐</span></li></a>
+                </ul>
+                <div class="my_music">
+                    <span>我的音乐</span>
+                </div>
+                <ul class="mine">
+                    <li><i class="iconfont icon-bendixiazai"></i><span>本地与下载</span></li>
+                    <li><i class="iconfont icon-zuijinbofang"></i><span>最近播放</span></li>
+                    <li><i class="iconfont icon-yun"></i><span>我的音乐云盘</span></li>
+                    <li><i class="iconfont icon-boke1"></i><span>我的播客</span></li>
+                    <li><i class="iconfont icon-ego-favorite"></i><span>我的收藏</span></li>
+                </ul>
+                <div class="create_list">
+                    <span>
+                        创建的歌单
+                        <i class="iconfont icon-ico_arrowright"></i>
+                        <i class="iconfont icon-jia i_last"></i>
+                    </span>
+                </div>
+                <div class="create_list">
+                    <span>
+                        收藏的歌单
+                        <i class="iconfont icon-ico_arrowright"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="right-box">
+                <ul class="navigation">
+                    <li class="active"><span>个性推荐</span></li>
+                </ul> 
+                <div class="banner">
+                    <div class="infomation">
+                        <h4>SIX FEET UNDER</h4>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;SIX FEET UNDER》是一首由Billie Eilish（比莉·艾利什）演唱的歌曲，收录在专辑《Six Feet Under》中。
+                        </p>
+                        <div class="btn_listen btn_listen_1">
+                            <a href="Billie%20Eilish%20-%20Six%20Feet%20Under.mp3">点击试听</a>
+                        </div>
+                        <div class="btn_listen btn_listen_2">
+                            <span>点击收藏</span>
+                        </div>
+                    </div>
+                    <img src="image/Six%20feet%20under.jpg" alt="">
+                </div>
+
+
+                <div class="recm_list">
+                    <div class="recm_word">推荐歌曲<i class="iconfont icon-jiantou-xiangyou"></i></div>
+                    <ul>
+                        <li>
+                            <img src="image/main/You%20Speak.jpg" alt="">
+                            <a href="audio/Audrey%20Assad%20-%20You%20Speak.mp3"><span>You Speak<br>Audrey Assad</span></a>
+                        </li>
+                        <li>   
+                            <img src="image/main/贝加尔湖畔.jpg" alt="">
+                            <a href="audio/Higger-Chow%20-%20贝加尔湖畔.mp3"><span>贝加尔湖畔<br>Higger-Chow</span></a>
+                        </li>
+                        <li>   
+                            <img src="image/main/Love%20Is%20Gone.jpg" alt="">
+                            <a href="audio/SLANDER,Dylan%20Matthew%20-%20Love%20Is%20Gone%20(Acoustic).mp3"><span>Love Is Gone<br>SLANDER,Dylan Matthew</span></a>
+                        </li>
+                        <li>
+                            <img src="image/main/champagne%20problems.jpg" alt="">
+                            <a href="audio/Taylor%20Swift%20-%20champagne%20problems.mp3"><span>champagne problems<br>Taylor Swift</span></a>
+                        </li>
+                        <li>
+                            <img src="image/main/TSUNAMI.jpg" alt="">
+                            <a href="audio/サザンオールスターズ%20-%20TSUNAMI.mp3"><span>TSUNAMI<br>サザンオールスターズ</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->   
+        <div class="footer">
+            <div class="ft_left">
+                <img class="_img" src="image/main/HANABI.jpg" alt="">
+                <div class="songNameAndSinger">
+                    <span class="songName">HANABI<i class="iconfont icon-aixin"></i></span>
+                    <span class="singer">Mr.Children</span>
+                </div>
+            </div>
+
+            <div class="ft_main">
+                <ul class="tool_list">
+                    <li><i class="iconfont icon-lajitong"></i></li>
+                    <li><i class="iconfont icon-shangyishoushangyige"></i></li>
+                    <li onclick="bofang()"><i class="iconfont icon-bofang _audio"></i><audio id="ado"></audio></i></li>
+                    <li><i class="iconfont icon-xiayigexiayishou"></i></li>
+                    <li><i class="iconfont icon-geciweidianji"></i></li>
+                </ul>
+                <div class="progress">                   
+                    <div class="slide"></div>
+                    <div class="fill"> </div>
+                    <span class="currentTime time">00:00</span>
+                    <span class="duraTime time">00:00</span>
+               </div>
+            </div>
+
+            <ul class="ft_right">
+                <li class="jigao">极高</li>
+                <li class="iconfont icon-yinxiao"></li>
+                <li class="iconfont icon-yinliangkai _voice"></li>
+                <li class="iconfont icon-24gl-playlistMusic"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/listen.js"></script>
+</body>
+</html>

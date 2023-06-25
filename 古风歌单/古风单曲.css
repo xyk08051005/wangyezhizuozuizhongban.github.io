@@ -1,0 +1,118 @@
+/* 热门推荐总体容器样式设置 */
+.total-hot {
+    width: 689px;
+    height: 523px;
+    margin-bottom: 40px;
+}
+
+.title {
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px 0px 34px;
+    border-bottom: 2px solid #C10D0C;
+}
+
+.red {
+    display: inline-block;
+    position: relative;
+    left: -34px;
+}
+
+.red>a {
+    display: inline-block;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    width: 110px;
+    margin-left: 6px;
+    text-align: right;
+
+}
+
+.title-description {
+    color: #333333;
+}
+
+.title-left {
+    position: relative;
+    top: -25px;
+    left: 100px;
+}
+
+.title-left>li {
+    float: left;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+.line {
+    color: #cccccc;
+    margin: 0px 10px;
+}
+
+.title-left>li>a {
+    color: #666666;
+}
+
+.title-right {
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: -35px;
+    float: right;
+}
+
+.title-right>a {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+/* 推荐歌单列表样式设置 */
+.CD-list>li {
+    width: 200px;
+    height: 200px;
+    padding: 0px 0px 30px 42px;
+    float: left;
+}
+
+.CD-list li>a {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+}
+
+.img-bottom {
+    display: inline-block;
+    width: 200px;
+    height: 27px;
+    position: relative;
+    top: -29px;
+    background-image: url(/image/背景.jpg);
+    background-position: 0 -537px;
+}
+
+.number {
+    float: left;
+    font-size: 12px;
+    margin: 7px 0px 0px 0px;
+}
+
+.img-bottom span,
+.img-bottom a {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.CD-description {
+    position: relative;
+    top: -23px;
+    line-height: 18px;
+}
+
+.CD-description a {
+    font-size: 14px;
+    color: #000000;
+}
+
+.CD-description:hover a {
+    text-decoration: underline;
+}
